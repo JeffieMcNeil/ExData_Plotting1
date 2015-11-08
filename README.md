@@ -1,9 +1,9 @@
 # Updates to ReadMe file
 This repository contains the files required for the Exploratory Data Analysis Project #1. The assignment was to develop a series of four R scripts that re-creates the four provided graphics. For each part of the assignment, there are two files, the R script and the corresponding png image file (e.g. plot1.R, plot1.png). 
 
-To match the sample files given in the "figures" folder of the repository:  
-- All plots are 480x480 pixels  
-- Background in all plots is set to "transparent". This may make them harder to read when opening directly but easier to embed in files and fulfills the requirement to match the given files.    
+Important notes:  
+- All plots are 480x480 pixels as specified by the assignment. This makes them slightly smaller than the provided reference plots (in the "figure" folder), which are 504x504 pixels.   
+- Background in all plots is set to "transparent" to match the provided reference plots in the "figure" folder. This may make them harder to read when opening directly but easier to embed in files and fulfills the requirement to match the given files.    
 
 ## Brief description of the R scripts
 Prior to running the R Script, please ensure that the **data.table** and **dplyr** packages are installed.
