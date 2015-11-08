@@ -1,3 +1,20 @@
+# Updates to ReadMe file
+This repository contains the files required for the Exploratory Data Analysis Project #1. The assignment was to develop a series of four R scripts that re-creates the four provided graphics. For each part of the assignment, there are two files, the R script and the corresponding png image file (e.g. plot1.R, plot1.png). 
+
+To match the sample files given in the "figures" folder of the repository:  
+- All plots are 480x480 pixels  i 
+- Background in all plots is set to "transparent". This may make them harder to read when opening directly but easier to embed in files and fulfills the requirement to match the given files.  
+
+## Brief description of the R scripts
+Prior to running the R Script, please ensure that the **data.table** and **dplyr** packages are installed.
+
+Each script first loads the required libraries, then checks for the data file in the working directory. If the datafile does not exist, it is downloaded from the given URL and unzipped.
+
+A temporary data table is created from the data file and the dates are formatted. From this, a dataframe containing on the data from Feb 1, 2007 - Feb 2, 2007 is is created. This dataframe is used in all subsequent plotting.
+
+In each script, a png file device is opened and the plot(s) are created with the required attributes. The file device is then closed and the file is created the working directory.
+
+# Original ReadMe file provide
 ## Introduction
 
 This assignment uses data from
